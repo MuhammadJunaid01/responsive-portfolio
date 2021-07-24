@@ -1,0 +1,138 @@
+.bg-1{
+    background-image: linear-gradient( to left,#776FFF , #87EEFF);
+
+    height: 750px;
+}
+
+.hello{
+    background: linear-gradient( 90deg,#cc2b5e , #753a88);
+    font-family: poppins;
+    font-size: 38px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.bg-2{
+    background-color: #1e2f3f52;
+}
+
+.donate{
+    font-weight: 600;
+}
+
+.box{
+    box-shadow: 6px 6px 30px gray;
+    transition: 4s ease-in-out;
+    opacity: 0.5;
+}
+
+.box1:hover .box{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.exp-sec{
+    margin-left: 40%;
+}
+
+.box-3{
+    background-image: linear-gradient( to left,#776FFF , #87EEFF);
+
+    height: 400px;
+    width: auto;
+
+    /* background-color: red; */
+}
+
+.box-4{
+    border-right: 2px solid transparent;
+    border-image: linear-gradient(#a8ff78 , #78ffd6);
+    border-image-slice: 1;
+
+}
+.box-5{
+    background-color: #F9F9FF;
+}
+
+.box-6{
+    transition: 3s;
+}
+.box-6:hover .icon{
+    color: #62bcfcb2;
+}
+
+.box-7{
+    background-image: linear-gradient( to left,#051937 , #A8EB12);
+
+    height: 300px;
+    /* overflow: hidden; */
+    margin-top: 10px;
+
+}
+.box-11{
+    background-image: linear-gradient( to left,#776FFF , #87EEFF);
+    overflow: hidden;
+
+    
+}
+
+.box-12{
+    padding: 40px;
+}
+
+.box-13{
+    background-image: linear-gradient( to left,#ffe259 , #ffa751);
+
+    height: 320px;
+    margin-top: 1px;
+    /* overflow: hidden; */
+}
+
+.box-14{
+    /* margin-top: 40px; */
+    /* display: inline-block; */
+}
+
+.box-15{
+    margin-top: 20px;
+}
+@media (min-width: 360px) and (max-width: 640px) {
+
+    .box-7{
+        height: 800px;
+    }
+
+    .bg-1{
+        height: 900px;
+    }
+
+    .box-8{
+        margin-top: 20px;
+    }
+
+    .box-3{
+        height: 550px;
+    }
+
+    .box-4{
+        border-bottom: 2px solid transparent;
+        border-image: linear-gradient( to left,#051937 , #A8EB12);
+
+        border-image-slice: 1;
+        border-right: none;
+    
+    }
+
+    .box-13{
+        height: 800px;
+
+    }
+
+    
+
+    .box-20{
+        margin-bottom: 20px;
+    }
+    
+}
