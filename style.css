@@ -2,6 +2,7 @@
     background-image: linear-gradient( to left,#776FFF , #87EEFF);
 
     height: 750px;
+    overflow: hidden;
 }
 
 .hello{
@@ -125,7 +126,7 @@
     }
 
     .box-13{
-        height: 800px;
+        height: 640px;
 
     }
 
